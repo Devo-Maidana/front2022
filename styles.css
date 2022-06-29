@@ -1,4 +1,50 @@
+
+
+
 p {
-color:blueviolet;
+color:cornflowerblue;
+font-size: 20xp;
+background-color: rgb(143, 211, 158);
 
 }
+
+
+#ColorRosa {
+    text-align: center;
+    color:blueviolet
+    
+
+}
+
+.ush {
+
+ text-align: center;
+ font-style:italic;
+
+}
+
+.ColorRojo{
+
+  color:rgb(253, 11, 11);  
+}
+
+.ColorUsh{
+
+    color:aquamarine;
+    background-color:black
+    
+}
+
+.PaisesColor {
+    text-align:left;
+    font-size: 20px;
+    background-color: rgb(185, 83, 185);
+    color:rgb(15, 15, 14);
+}
+
+.LugaresColor {
+font-size: 20px;
+background-color: darkcyan;
+
+}
+
