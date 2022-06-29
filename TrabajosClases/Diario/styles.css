@@ -1,0 +1,52 @@
+
+
+
+p {
+    color:rgb(27, 28, 29);
+    font-size: 30xp;
+    background-color: rgb(160, 205, 241);
+    
+    }
+    
+    
+    #ColorRosa {
+        text-align: center;
+        color:blueviolet
+        
+    
+    }
+    
+    .ush {
+    
+     text-align: center;
+     font-style:italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    
+    .ColorRojo{
+    
+      color:rgb(253, 11, 11);  
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .ColorUsh{
+    
+        color:aquamarine;
+        background-color:black
+        
+    }
+    
+    .NotiPoliticas{
+        text-align:left;
+        font-size: 20px;
+        background-color: rgb(110, 26, 110);
+        color:rgb(15, 15, 14);
+    }
+    
+    .NotiDeportivas{
+    font-size: 20px;
+    background-color: darkcyan;
+    
+    }
+    
