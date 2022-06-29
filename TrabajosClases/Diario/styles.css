@@ -9,9 +9,12 @@ p {
     }
     
     
-    #ColorRosa {
+    .ColorRosa {
+        
+        font-family: cursive;
+        text-shadow: 7px 4px 5px rgb(204, 18, 204);
         text-align: center;
-        color:rgb(250, 116, 216)
+        color:rgb(15, 15, 15)
         
     
     }
