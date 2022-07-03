@@ -1,8 +1,13 @@
+.p{
 
+background-color: rgb(243, 80, 248);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-top: 5px;
+}
 
 .titulo{
 
-
+    
     font-family: cursive;
     text-shadow: 7px 4px 5px rgb(204, 18, 204);
     text-align: center;
@@ -11,29 +16,62 @@
 }
 
 .cabeza {
-    height: 100px;
+    width: 100%;
+    height: auto;
     background-color: rgb(8, 8, 8);
     font-family: cursive;
         text-shadow: 7px 4px 5px rgb(204, 18, 204);
         text-align: center;
-        color:rgb(17, 250, 199)
+        color:rgb(17, 250, 199);
+        margin: 20px;
+        padding: 15px;
+        margin-top: auto;
+
 }
 .cuerpo {
-    height: 400px;
-    background-color:rgb(10, 10, 10);
-    font-family: cursive;
-        text-shadow: 10px 4px 5px rgb(235, 225, 235);
+    width: 100%;
+    height:500px;
+    background-image: url(twice.jpg);
+    	
+     
+     font-family: cursive;
+        text-shadow: 10px 4px 5px rgb(14, 13, 14);
         text-align: center;
-        color:rgb(31, 238, 253)
+        color:rgb(31, 238, 253);
+        margin: 20px;
+        padding: 15px;
+        display:inline-table;
 }
 .pie {
+    width: 100%;
     height: 50px;
     background-color: rgb(13, 13, 14);
     font-family: cursive;
-    color:rgb(134, 247, 172)
+    color:rgb(134, 247, 172);
+    margin: 20px;
+    padding: 15px;
 }
 
 .borde{
  border: 5px solid rgb(67, 185, 253);
 
 }
+.GRUPOS{
+
+    text-align:justify;
+    font-size: 30px;
+    color:rgb(6, 252, 240);
+    padding: 10PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+body {
+    background-image: url(twice.jpg);
+    
+        
+     background-attachment: fixed;
+        
+    }
