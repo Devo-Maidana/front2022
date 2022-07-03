@@ -1,0 +1,39 @@
+
+
+.titulo{
+
+
+    font-family: cursive;
+    text-shadow: 7px 4px 5px rgb(204, 18, 204);
+    text-align: center;
+    color:rgb(15, 15, 15)
+
+}
+
+.cabeza {
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+    font-family: cursive;
+        text-shadow: 7px 4px 5px rgb(204, 18, 204);
+        text-align: center;
+        color:rgb(17, 250, 199)
+}
+.cuerpo {
+    height: 400px;
+    background-color:rgb(10, 10, 10);
+    font-family: cursive;
+        text-shadow: 10px 4px 5px rgb(235, 225, 235);
+        text-align: center;
+        color:rgb(31, 238, 253)
+}
+.pie {
+    height: 50px;
+    background-color: rgb(13, 13, 14);
+    font-family: cursive;
+    color:rgb(134, 247, 172)
+}
+
+.borde{
+ border: 5px solid rgb(67, 185, 253);
+
+}
