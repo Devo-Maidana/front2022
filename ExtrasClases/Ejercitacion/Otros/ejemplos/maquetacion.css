@@ -1,0 +1,29 @@
+#contenedor{
+	background-color:#fd54f8;
+	border:2px solid #6e0866;
+}
+#cabecera{
+	background-color:#8ccc58;
+	height:20%;
+}
+#menu{
+	height:10%;
+	background-color:#3989d8;
+}
+#izquierda{
+	height:50%;
+	background-color:#BDD2EF;
+	float:left;
+	width:50%;
+}
+#derecha{
+	height:50%;
+	background-color:#0a40a3;
+	float:right;
+	width:50%;
+}
+#pie{
+	height:20%;
+	background-color:#ff9034;
+	clear:both;
+}
