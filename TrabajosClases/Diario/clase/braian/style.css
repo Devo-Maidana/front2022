@@ -6,7 +6,7 @@ background-color:darkgray;
 justify-items: flex-start;
 justify-content: space-around;
 width: auto;
-height: 10%;
+height: 100px;
 
 }
 
@@ -14,7 +14,7 @@ height: 10%;
 
 .logo{
 border-style: solid;
-border-color:blue;
+border-color:black;
 background-color: blue;
 width: 6%;
 height: 25px;
@@ -24,8 +24,8 @@ color: antiquewhite;
 
 .menu1{
 
-  border-style: solid;
-  border-color:green;
+  border-style:solid;
+  border-color:black;
   background-color: green;
   width: 8%;
   height: 25px;
@@ -36,7 +36,7 @@ color: antiquewhite;
 .menu2{
 
   border-style: solid;
-  border-color:brown;
+  border-color:black;
   background-color: brown;
   width: 15%;
   height: 25px;
@@ -47,12 +47,12 @@ color: antiquewhite;
 
 
 .contenedor2{
-  display:flex;
-  flex-direction: row;
- align-content: stretch;
- justify-content: space-around;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items: center;
   width: 100%;
-  height: 250px;
+  height: 700px;
   color: antiquewhite;
  
   
@@ -61,20 +61,20 @@ color: antiquewhite;
 
 .divizquierda{
   border-style: solid;
-  border-color:grey;
+  border-color:black;
   background-color:grey;
   width: 30%;
- 
+  height: 280px;
   
   
 }
 
 .divcentro{
   border-style: solid;
-  border-color:aquamarine;
+  border-color:black;
   background-color:aquamarine;
   width: 30%;
- 
+  height: 280px;
  
 }
 
@@ -82,27 +82,27 @@ color: antiquewhite;
 .divderecha{
 
   border-style: solid;
-  border-color:chocolate;
+  border-color:black;
   background-color:chocolate;
   width: 30%;
- 
+  height: 280px;
  
  }
 
 .divizquierda2{
   border-style: solid;
-  border-color:darkgreen;
+  border-color:black;
   background-color:darkgreen;
-  width: 30%;
-  
+  width: 65%;
+  height: 280px;
    }
 
 .divderecha2{
   border-style: solid;
-  border-color:crimson;
+  border-color:black;
   background-color:crimson;
   width: 30%;
-  
+  height: 280px;
  
 }
 
@@ -110,8 +110,23 @@ color: antiquewhite;
 
 .pie{
   border-style: solid;
-  border-color:deepskyblue;
-  background-color:deepskyblue;
+  border-color:black;
+  background-color: cyan;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:flex-start;
   width: auto;
-  height: 10%;
+  height: 100px;
+}
+.divelemento{
+  display: flex;
+  border-style: solid;
+  border-color:black;
+  color: blueviolet;
+  align-items: center;
+  justify-items: flex-end;
+  width: auto;
+  height: 25px;
+  
 }
