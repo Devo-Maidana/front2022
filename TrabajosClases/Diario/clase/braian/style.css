@@ -1,83 +1,117 @@
-body {
-    background-color: #000408;
-    color: rgb(247, 253, 160);
-    padding: 0;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 35px;
-  }
-  a {
-    color: #ffa;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-  }
+.contenedor{
 
-  .D{
+display: flex;
+flex-direction:row;
+background-color:darkgray;
+justify-items: flex-start;
+justify-content: space-around;
+width: auto;
+height: 10%;
 
-   color: greenyellow;
-   font-style:unset;
+}
 
-  }
-  .contenedor {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  header {
-    background-color: #369;
-    padding: 15px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header img {
-    width: 150px;
-  }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-  }
-  nav li {
-    font-size: 13px;
-    margin: 0 30px;
-  }
-  .contenido{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-  }
-  main {
-    flex-grow: 1;
-    margin-right: 2px;
-    padding: 1.2px;
-  }
-  aside {
-    background-color: rgb(33, 148, 194);
-    width: 300px;
-    max-width: 300px;
-    min-width: 300px;
-    padding: 2px;
-  }
-  aside img {
-    margin-bottom: 1.5rem;
-    max-width: 100%;
-  }
-  footer {
-    background-color: rgb(192, 13, 13);
-    color: #303030;
-    padding: 10px;
-    display: flex;
-    font-size: 15px;
-    justify-content: flex-start;
-  }
-  .footer-block {
-    margin-right:auto;
-    display: flex;
-    flex-direction: column;
-  }
-  footer a {
-    color: rgb(10, 194, 250);
-  }
+
+
+.logo{
+border-style: solid;
+border-color:blue;
+background-color: blue;
+width: 6%;
+height: 25px;
+color: antiquewhite;
+
+}
+
+.menu1{
+
+  border-style: solid;
+  border-color:green;
+  background-color: green;
+  width: 8%;
+  height: 25px;
+  color: antiquewhite;
+
+}
+
+.menu2{
+
+  border-style: solid;
+  border-color:brown;
+  background-color: brown;
+  width: 15%;
+  height: 25px;
+  color: antiquewhite;
+}
+
+
+
+
+.contenedor2{
+  display:flex;
+  flex-direction: row;
+ align-content: stretch;
+ justify-content: space-around;
+  width: 100%;
+  height: 250px;
+  color: antiquewhite;
+ 
+  
+}
+
+
+.divizquierda{
+  border-style: solid;
+  border-color:grey;
+  background-color:grey;
+  width: 30%;
+ 
+  
+  
+}
+
+.divcentro{
+  border-style: solid;
+  border-color:aquamarine;
+  background-color:aquamarine;
+  width: 30%;
+ 
+ 
+}
+
+
+.divderecha{
+
+  border-style: solid;
+  border-color:chocolate;
+  background-color:chocolate;
+  width: 30%;
+ 
+ 
+ }
+
+.divizquierda2{
+  border-style: solid;
+  border-color:darkgreen;
+  background-color:darkgreen;
+  width: 30%;
+  
+   }
+
+.divderecha2{
+  border-style: solid;
+  border-color:crimson;
+  background-color:crimson;
+  width: 30%;
+  
+ 
+}
+
+
+
+.pie{
+  border-style: solid;
+  border-color:deepskyblue;
+  background-color:deepskyblue;
+  width: auto;
+  height: 10%;
+}
