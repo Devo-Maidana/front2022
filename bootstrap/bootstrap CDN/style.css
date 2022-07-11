@@ -1,15 +1,17 @@
 .borde{
- color: 2px  black solid;
+ color:black;
+ border: 2px;
+ border-style: solid;
 
 }
 
 .encabezado {
 
-height: 70px;
+height: 80px;
 
 }
 
 .articulo{
 
-    height: 400px;
+    height: 300px;
 }

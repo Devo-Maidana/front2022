@@ -1,0 +1,17 @@
+.borde{
+    color:black;
+    border: 2px;
+    border-style: solid;
+   
+   }
+   
+   .encabezado {
+   
+   height: 80px;
+   
+   }
+   
+   .articulo{
+   
+       height: 300px;
+   }
