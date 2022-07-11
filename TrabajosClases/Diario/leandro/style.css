@@ -1,14 +1,14 @@
 .borde{
     color:black;
-    border: 2px;
+    border: 1px;
     border-style: solid;
    
    }
    
    .encabezado {
    
-   height: 80px;
-   
+   height: 60px;
+  
    }
    
    .articulo{
