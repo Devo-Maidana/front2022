@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz prueba</title>
+    <!--- custom CSS personalizado para   resize:none; para modificar y no dejar que se redimecione (agrandar el tex area de mi formulario)-->
+    <link rel="stylesheet" href="style2.css">
+    <!--- boostrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+ <!--- MARGIN (margen es contra los elementos de afuera,el margin es contra otros
+    elementos,un contenedor contra otro contenedor) link  -->
+  <!--- PADDING (es en el contenido interno, pudo poner un padding para ser
+    que los elementos de adentro de un contendeor se pongan mas al centro
+    como q tengan un espacio con su propio contenedor)  -->
+
+    <nav class="navbar navbar-expand-lg  bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+             
+              <a class="nav-link" href="#">Homes</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">novedades</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+<div class="container my-3">  <!--- con my-3 puedo decirle q tenga un margin
+de 3 unidades. esto hace q el elemento se divida 3 unidades
+de su elemento con el que esta chocando (seria la barra de neavegacion en este caso) lo mismo
+podria usar un py-3 o px-3 para un padding  py(significa paddin en el eje de las y 
+y px padding en el eje de las x osea en horizontal)--> 
+<div class="row"> 
+<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
+ <h2>formulario de lenguajes</h2> <!--- ejemplo  para ver formulario usando boostrap  -->
+<form>
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Lenguajee</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Lenguaje" autofocus>
+      </div>
+      <div class="mb-3">
+        <label for="descripcion" class="form-label">Descripcion</label>
+        <textarea class="form-control" id="descripcion" placeholder="Dscripcion del lenguaje"rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="programadores" class="form-label">Numero de Programadores</label>
+        <input type="number" class="form-control" id="programadores"/>
+      </div>
+      <div class="d-grid gap-2">
+        <button class="btn btn-success">Guardar</button>
+        <button class="btn btn-secondary">Limpiar</button>
+      </div>
+ 
+    </form>
+     </div>
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py- 4 bg-white"> <!--- ejemplos usados una clase personalizada llamada bg-white para darle  fondo blanco a mi tabla
+    mas el py para darle espacio al padding de las tablas y usamos un color de fondo de una pagina que da estilos llamada gandient   -->
+        <h2>Listado de Lenguajes </h2>
+    <!-- agrego diseño a mi tabla dinamica y basica con la clase table y table-dark para el color-->
+    <table class="table table-dark table-striped">
+     
+        <!--encabezado thead El elemento thead contiene a un bloque de filas ( tr ) que representa a la sección de encabezado de una tabla -->
+        <thead>
+   <!--  tr  define una fila de celdas en una tabla -->
+     <tr>
+        <!--  th para el titulo  define una celda como encabezado de un grupo de celdas en una tabla.  -->
+        <th>#</th>
+        <th class="centrado">Lenguaje</th>
+        <th class="centrado">Cantidad de programadores</th>
+     </tr>
+     
+        </thead>
+
+        <!-- El elemento tbody contiene a un bloque de filas ( tr ) que representaa a la sección del cuerpo de una tabla ( table ) -->
+        <tbody>
+         <tr>
+            <!--  td para fila define la celda de una tabla que contiene datos. -->
+            <td class="centrado">1</td>
+            <td class="centrado">JavasCript</td>
+            <td class="centrado">21</td>
+         </tr>
+         <tr>
+
+            <td class="centrado">1</td>
+            <td class="centrado">Python</td>
+            <td class="centrado">110</td>
+         </tr>
+         <tr>
+
+            <td class="centrado">3</td>
+            <td class="centrado">C#</td>
+            <td class="centrado">45</td>
+         </tr>
+         <tr>
+
+            <td class="centrado">4</td>
+            <td class="centrado">Ruby</td>
+            <td class="centrado">31</td>
+         </tr>
+
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>

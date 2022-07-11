@@ -1,0 +1,28 @@
+
+body{
+
+
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+
+}
+
+
+
+#descripcion{
+  
+
+    resize:none;
+}
+
+.centrado{
+
+    text-align:center;
+    vertical-align: middle;
+}
+
+.bg-white{
+
+    background-color: #ffffff;
+}
