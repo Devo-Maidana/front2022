@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(94, 87, 87);
+
+}
+
+.col {
+    border-color: black;
+    border: solid;
+
+}
+/* en movil ocultamos el div A */
+.div-A {
+    display: none;
+ }
+
+@media screen and (min-width: 380px){
+
+    /* en desktop vemos el div A */
+    .div-A {
+       
+    }
+}

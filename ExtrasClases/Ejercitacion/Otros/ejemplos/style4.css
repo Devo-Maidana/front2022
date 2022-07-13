@@ -1,0 +1,32 @@
+.middle-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: blueviolet;
+}
+
+
+
+.main{
+  background-color: aqua;
+}
+
+/* solo para pantallas superiores a 660px */
+@media only screen and (min-width: 660px) {
+   .middle-wrapper {
+         grid-template-columns: 3fr 1fr;
+         flex-direction: row;
+        
+    }
+
+    header{
+
+      background-color: darkcyan;
+      flex-direction: row;
+    }
+    
+    footer{
+      background-color: rgb(192, 46, 236);
+      flex-direction: row;
+    }
+  
+  }

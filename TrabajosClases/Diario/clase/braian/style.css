@@ -130,3 +130,29 @@ color: antiquewhite;
   height: 25px;
   
 }
+
+@media only screen and (min-width:660px){ 
+    body{
+
+      background-color: black;
+    }
+
+    .divelemento{
+       flex-direction: row;
+      border-style:dashed;
+      
+    }
+  .contenedor{
+
+   border-style: double;
+   background-color: rgb(16, 151, 140);
+    
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+  }
+.contenedor2{ 
+  border-style:dashed;
+ 
+     flex-direction:row-reverse;
+    }
