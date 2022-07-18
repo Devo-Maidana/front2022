@@ -1,0 +1,13 @@
+.hover{
+    background-color: rgb(14, 185, 253);
+  }
+
+  div > h1 {
+
+  background-color: crimson;
+  }
+
+  div + h2 {
+
+    background-color: darkviolet;
+}
