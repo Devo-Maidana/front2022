@@ -1,5 +1,6 @@
 .hover{
     background-color: rgb(14, 185, 253);
+    color: chartreuse;
   }
 
   div > h1 {
@@ -11,3 +12,14 @@
 
     background-color: darkviolet;
 }
+
+
+div ~ h3 {
+
+    background-color: rgb(92, 175, 103);
+}
+
+p ~ h4 {
+
+    background-color: rgb(235, 238, 89);
+    }
