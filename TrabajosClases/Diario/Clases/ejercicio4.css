@@ -1,7 +1,6 @@
-.hover{
-    background-color: rgb(14, 185, 253);
-    color: chartreuse;
-  }
+h1:hover {
+    background-color: rgb(23, 107, 20);
+    }
 
   div > h1 {
 
