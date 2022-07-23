@@ -1,22 +1,14 @@
-header{
-    background-color: rgb(94, 87, 87);
+.container{
 
+display: flex;
+background-color:hotpink;
+flex-direction: row;
 }
 
-.col {
-    border-color: black;
-    border: solid;
+.div{
 
-}
-/* en movil ocultamos el div A */
-.div-A {
-    display: none;
- }
-
-@media screen and (min-width: 380px){
-
-    /* en desktop vemos el div A */
-    .div-A {
-       
-    }
+margin:  5px;
+background-color: rgb(46, 175, 177);
+color: beige;
+width: 100px;
 }
