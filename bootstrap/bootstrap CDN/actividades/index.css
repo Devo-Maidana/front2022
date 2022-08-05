@@ -1,0 +1,40 @@
+
+
+.titulo {
+
+background: #0c7d97;
+color: rgb(175, 198, 240);
+font-size: large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+
+.colorRojo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+
+.ocultar{
+    display: none;
+}
+
+
+#toggleButton{
+    background: #0c7d97;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: rgb(175, 198, 240);
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background: #d90e52;
+    color: white;
+    cursor: pointer;
+  }
