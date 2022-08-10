@@ -1,5 +1,5 @@
 
-alert (hola);
+
 
 let contador = 0;
 
@@ -9,7 +9,7 @@ botonContar.addEventListener("click",contarClick);
 let botonMostrar = document.getElementById("mostrarCantidadDeClicks");
 botonMostrar.addEventListener("click",mostrarClicks);
 
-let botonRestar = document.getElementById("restarCliks");
+let botonRestar = document.getElementById("restarClicks");
 botonRestar.addEventListener("click",restarClick);
 
 function contarClick(){
@@ -17,7 +17,6 @@ function contarClick(){
     contador++;
     document.querySelector("h1").innerHTML = contador;
 }
-
 
 function restarClick(){
 
@@ -31,3 +30,4 @@ function mostrarClicks(){
     
     document.querySelector("h1").innerHTML = contador;
 }
+
