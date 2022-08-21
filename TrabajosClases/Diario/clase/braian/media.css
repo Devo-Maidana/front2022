@@ -1,14 +1,68 @@
 .container{
+    display: flex;
 
-display: flex;
-background-color:hotpink;
-flex-direction: row;
+    flex-direction: row;
+ background-color: rgb(28, 163, 226);
+
+
 }
 
-.div{
+
+
+.div {
+
+
+    width:auto;
+
+}
+
+#a{
 
 margin:  5px;
-background-color: rgb(46, 175, 177);
-color: beige;
-width: 100px;
+background-color: rgb(214, 105, 16);
+color: rgb(14, 13, 13);
+
+height: 200px;
 }
+#b{
+
+    margin:  5px;
+    background-color: rgb(211, 179, 153);
+    color: rgb(14, 13, 13);
+    
+    height: 200px;
+    }
+ #c{
+
+        margin:  5px;
+        background-color: rgb(83, 5, 128);
+        color: rgb(14, 13, 13);
+        
+        height: 200px;
+        }
+ #d{
+
+ margin:  5px;
+ background-color: rgb(48, 141, 39);
+color: rgb(14, 13, 13);
+
+ height: 200px;
+}
+           
+                                        
+
+
+
+@media only screen and (min-width:875px){ 
+    
+    .container{
+  
+        display: flex;
+        flex-direction:column;
+
+        background-color:hotpink;
+     
+  
+    }
+
+   

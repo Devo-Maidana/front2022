@@ -108,7 +108,7 @@ color: antiquewhite;
 
 
 
-.pie{
+#pie{
   border-style: solid;
   border-color:black;
   background-color: cyan;
@@ -119,7 +119,7 @@ color: antiquewhite;
   width: auto;
   height: 100px;
 }
-.divelemento{
+#divelemento{
   display: flex;
   border-style: solid;
   border-color:black;
@@ -131,13 +131,8 @@ color: antiquewhite;
   
 }
 
-@media only screen and (min-width:660px){ 
-    body{
 
-      background-color: black;
-    }
-
-    .divelemento{
+    #divelemento{
        flex-direction: row;
       border-style:dashed;
       
@@ -156,3 +151,11 @@ color: antiquewhite;
  
      flex-direction:row-reverse;
     }
+    @media only screen and (min-width: 200px){ 
+      body{
+  
+        background-color: rgb(9, 56, 184);
+       
+       flex-direction: column;
+  
+      }
